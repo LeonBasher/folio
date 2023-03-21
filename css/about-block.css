@@ -1,0 +1,14 @@
+ .info-item {
+   font-family: 'Montserrat';
+   color: #c7c5c7;
+ }
+
+ .info-item + .info-item {
+   margin-top: 7px;
+ }
+
+ .info-list {
+   list-style: none;
+   padding-left: 0;
+   font-size: 14px;
+ }

@@ -1,0 +1,60 @@
+  .contains-service-image {
+    padding: 20px 20px 0;
+  }
+
+  .service-image {
+    width: 51px;
+    height: 51px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 25px;
+    border: 1px solid #16c0f0;
+    transition: 500ms;
+  }
+
+  .service-image img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .service-name {
+    font-size: 20px;
+  }
+
+  .service-card {
+    cursor:default;
+    transition: 1s;
+  }
+
+  .service-card:hover {
+    border-color: #16c0f0;
+    transform: translateY(-2px);
+  }
+  .service-card:hover .contains-service-image .service-image{
+    background-color: black;
+  }
+
+  .language-progress {
+    height: 5px;
+  }
+
+  .language-progress .progress-bar{
+    background-color: #1A7599;
+    transition: 300ms;
+  }
+
+  .language-card {
+    cursor:default;
+    transition: 1s;
+  }
+
+  .language-card:hover {
+    border-color: #f0ae16;
+    transform: translateY(-2px);
+  }
+
+  .language-card:hover .progress-bar {
+    background-color: #f0ae16;
+  }

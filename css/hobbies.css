@@ -1,0 +1,47 @@
+.contains-hobbie-image {
+  padding: 20px 20px 0;
+}
+
+.hobbie-image {
+  width: 51px;
+  height: 51px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 25px;
+  border: 1px solid #f0ae1691;
+  transition: 500ms;
+}
+
+.hobbie-image img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hobbie-name {
+  font-size: 20px;
+}
+
+.hobbie-card {
+  cursor:default;
+  transition: 1s;
+  border-color: #f0ae1691;
+}
+
+.hobbie-card:hover {
+  border-color: #f0ae16;
+  transform: translateY(-2px);
+}
+.hobbie-card:hover .contains-hobbie-image .hobbie-image{
+  background-color: black;
+  border-color: #f0ae16;
+}
+
+.hobbies h2::before {
+  background: transparent linear-gradient(to right, transparent, #f0ae16, transparent) repeat scroll 0 0;
+}
+
+.hobbies h2::after {
+  background-color: #f0ae16;
+}
